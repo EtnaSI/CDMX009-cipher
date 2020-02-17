@@ -14,7 +14,7 @@ SafeWord es una aplicación que facilita la identificación de las personas que 
     - Es una forma sencilla de aumentar la seguridad en sus actividades cotidianas.  
     - Genera un sentimiendo de confianza y fiabilidad.
 
-  ![](imagenesSW/protopipoPapel.jpg)
+  ![](imagenesSW/prototipoPapel.jpg)
 
   4. Con el feedback de posibles usuarios se realizó una optimización del prototipo, disminuyendo el número de pantallas a utilizar, esto se logró al unificar en una pantalla las opciones cifrar/descifrar (indicadas al usuario como "Crear
   palabra segura" o "Leer palabra segura"). También se sintetizó la sección de "Cómo funciona" y "Tips de seguridad" para que fuera más accseible y sencilla de leer. Se cambió el color de fondo, aumentando así la sensación de orden y limpieza en la aplicación.
