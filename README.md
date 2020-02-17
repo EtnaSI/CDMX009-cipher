@@ -6,13 +6,13 @@ SafeWord es una aplicación que facilita la identificación de las personas que 
 
 ## Investigación UX:
 
-  1. La aplicación está dirigida a personas que ofrecen/reciben productos y servicios, como transporte particular, mensajeria y paquetería, servicios de mantenimiento a domicilio, etc. También para usuarios de plataformas de encuentros con fines reacreativos y sociales. El objetivo de SafeWord es proporcionar un sistema de seguridad, por medio del cual, se pueda verificar la identidad de las personas en ambos sentidos.
+  1. La aplicación está dirigida a personas que ofrecen/reciben productos y servicios, como transporte particular, mensajería y paquetería, servicios de mantenimiento a domicilio, etc. También para usuarios de plataformas de encuentros con fines reacreativos y sociales. El objetivo de SafeWord es proporcionar un sistema de seguridad, por medio del cual, se pueda verificar la identidad de las personas en ambos sentidos.
 
   2. La preocupación de los prestadores de servicios por resguardar la seguridad de los usuarios  va en incremento, SafeWord surge como una propuesta que responde a las siguientes necesidades básicas:
 
-    - Es amigable y fácil de usar, teniendo incluso un sentido lúdico.
-    - Es una forma sencilla de aumentar la seguridad en sus actividades cotidianas.  
-    - Genera un sentimiendo de confianza y fiabilidad.
+    a) Es amigable y fácil de usar, teniendo incluso un sentido lúdico.
+    b) Es una forma sencilla de aumentar la seguridad en sus actividades cotidianas.  
+    c) Genera un sentimiento de confianza y fiabilidad.
 
   ![](imagenesSW/prototipoPapel.jpg)
 
