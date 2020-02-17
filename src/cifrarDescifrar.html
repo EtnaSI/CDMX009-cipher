@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Safe Word</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <header>
+      <div class="container-header">
+        <div class="logo-nav">
+          <p><a href="index.html">SafeWord</a></p>
+        </div>
+        <nav class="menu">
+          <ul>
+            <li><a href="comoFunciona.html">¿Cómo funciona?</a></li>
+            <li><a href="tipsSeguridad.html">Tips de seguridad</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container-encodeDecode">
+        <div class="container-titleED">
+          <h1>Crea o lee una palabra segura</h1>
+        </div>
+        <hr>
+        <br>
+        <br>
+        <div class="container-steps">
+          <div class="item-step1">
+            <p>Para generar una palabra segura elige una clave. Para leer una palabra, selecciona o escribe la clave que recibiste</p>
+            <br>
+            <input type="number" id="key">
+          </div>
+          <br>
+          <div class="item-step2">
+            <p>Escribe la palabra que quieras cifrar o descifar</p>
+            <br>
+            <textarea id="inputString" type="text" cols="50" rows="3"></textarea>
+          </div>
+          <br>
+          <br>
+          <div class="item-buttons">
+            <button id="encodeButton">Crear palabra</button>
+            <button id="decodeButton">Leer palabra</button>
+          </div>
+          <br>
+          <br>
+          <div class="item-step3">
+            <p>Tu palabra es:</p>
+            <br>
+            <textarea id="outputString" type="text" cols="50" rows="3" readonly></textarea>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <p>2020 by Etna for Laboratoria</p>
+    </footer>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

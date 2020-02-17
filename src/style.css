@@ -1,99 +1,218 @@
 @import url('https://fonts.googleapis.com/css?family=Sanchez&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-
 *{
   padding: 0;
   margin: 0;
 }
 
-/* Header */
-header{
+/* Este es el Header para todos los archivos html */
+header {
   with: 100%;
   background: #8E5F92;
-  height: 70px;
+  height: 80px;
 }
 
-.container-h{
+.container-header {
   width: 80%;
   height: 70px;
   margin: auto;
 }
-.logo{
-  width: 20%;
-  height: 70px;
-  background: #0000;
-  float:left;
-  padding-top: 10px;
-  box-sizing: border-box;
+  .logo-nav {
+    width: 20%;
+    height: 70px;
+    background: #0000;
+    float:left;
+    padding-top: 15px;
+    box-sizing: border-box;
 }
-.logo p a{
-  color: #DDD8D8;
-  font-size: 40px;
-  text-decoration: none;
-  font-weight: bold;
-  font-family: Sanchez;
+    .logo-nav p a {
+      color: #DDD8D8;
+      font-size: 40px;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: Sanchez;
 }
-nav{
+  nav{
+    width: 80%;
+    height: 70px;
+    float: left;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+    nav ul li{
+      display: inline;
+}
+      nav ul li a{
+        color: #DDD8D8;
+        font-size: 15px;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding-left: 15px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-family: Montserrat;
+        padding-top: 15px;
+}
+      nav ul li a:hover{
+        color: #444;
+
+}
+.container-main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items:center;
+}
+  .item-logo {
+    padding: 20px;
+}
+  .item-text {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Montserrat;
+    font-size: 40px;
+    color: #737373;
+    text-align: left;
+    flex-grow: 1, 1, auto;
+    width: 500px;
+    height: 500px;
+    align-content: center;
+}
+  .item-button {
+    display: flex;
+    background: #DDD8D8;
+    align-self: flex-end;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+    .item-button a{
+      font-family: Montserrat;
+      font-size: 30px;
+      color: #8E5F92;
+      font-weight: bold;
+      text-decoration: none;
+  }
+
+    .item-button a:hover{
+        color: #444;
+}
+.container-encodeDecode {
   width: 80%;
-  height: 70px;
-  float: left;
-  text-align: right;
-  padding-top: 24px;
-  box-sizing: border-box;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
 }
-nav ul li{
-  display: inline;
-}
-nav ul li a{
-  color: #DDD8D8;
-  font-size: 15px;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding-left: 15px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  font-family: Montserrat;
-}
-nav ul li a:hover{
-  color: #444;
-}
+    .container-titleED h1 {
+      font-size: 30px;
+      font-family: Montserrat;
+      color: #616060;
+    }
+      .container-encodeDecode hr {
+        width: 450px;
+        color: #8E5F92;
+  }
+    .container-steps {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+    }
+      .item-step1, .item-step2, .item-step3 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+      }
 
-div.contenidoInicio{
-  width: 100%
-}
-
-.contenidoInicio{
-  width: 50%;
-  height: 50%;
-  float: left;
-}
-
-.logoDerecha{
-  float: right;
-  padding: 100px;
-}
-
-aside{
-  width: 500px;
-  height: 300px;
-  font-family: Montserrat;
-  font-size: 40px;
-  padding: 150px;
-  text-decoration: none;
-  text-align: left;
-}
-
-footer{
+        .item-step1 p, .item-step2 p, .item-step3 p {
+          font-family: Montserrat;
+          font-size: 20px;
+          color: #737373;
+        }
+        .item-step1 input, .item-step2 textarea, .item-step3 textarea {
+          width: auto;
+          height: 30px;
+          border-radius: 5px;
+          border: 2px solid #8E5F92;
+        }
+        .item-buttons {
+          display: flex;
+          align-items: center;
+          align-content: space-between;
+          flex-direction: row;
+          flex-wrap: nowrap;
+        }
+        .item-buttons button   {
+          display: flex;
+          font-family: Montserrat;
+          font-size: 20px;
+          background: #DDD8D8;
+          color: #8E5F92;
+          font-weight: bold;
+          text-decoration: none;
+          padding: 10px;
+          border-radius: 20px;
+          margin-left: 20px;
+        }
+        .item-buttons button:hover{
+          color: #444;
+        }
+  .container-instructions, .container-tips {
+      width: 80%;
+      margin: 35px auto;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: space-around;
+    }
+    .container-titleI h1, .container-titleT h1 {
+        font-size: 30px;
+        font-family: Montserrat;
+        color: #616060;
+        font-weight: bold;
+      }
+      .container-instructionsSteps, .container-listTips {
+          width: 80%;
+          margin: 20px auto;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          align-content: space-around;
+        }
+          .container-instructions hr, {
+                width: 350px;
+                color: #8E5F92;
+            }
+            .container-instructions hr, {
+                  width: 300px;
+                  color: #8E5F92;
+                  }
+        .container-instructionsSteps p, .container-listTips p {
+              font-family: Montserrat;
+              font-size: 20px;
+              color: #737373;
+              line-height: 1.5em;
+            }
+footer {
   width: 100%;
   background: #DDD8D8;
   height: 80px;
 }
 
-footer p{
-  font-size: 20px;
-  text-align: center;
-  padding-top: 25px;
-  color: #555255;
-  font-family: Montserrat;
+  footer p {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+    color: #555255;
+    font-family: Montserrat;
 }
